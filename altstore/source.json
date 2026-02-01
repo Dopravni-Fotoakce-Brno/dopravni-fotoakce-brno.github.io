@@ -1,11 +1,33 @@
 {
-	"name": "DFBRIS AltStore Repo",
-	"identifier": "io.github.dfbris.altstore",
-	"subtitle": "Dopravní Fotoakce Brno",
-	"description": "AltStore zdroj Dopravní Fotoakce Brno",
-	"website": "https://dopravni-fotoakce-brno.github.io/",
-	"tintColor": "8B5CF6",
-	"apps": [],
-	"featuredApps": [],
-	"news": []
+  "name": "DFBRIS AltStore Repo",
+  "subtitle": "Dopravní Fotoakce Brno",
+  "description": "AltStore zdroj Dopravní Fotoakce Brno",
+  "iconURL": "https://avatars.githubusercontent.com/u/242399959?s=200&v=4",
+  "website": "dopravni-fotoakce-brno.github.io/",
+  "patreonURL": "",
+  "tintColor": "#fff000",
+  "featuredApps": [
+    "com.dfb.dfbris"
+  ],
+  "apps": [
+    {
+      "name": "DFB RIS",
+      "bundleIdentifier": "com.dfb.dfbris",
+      "marketplaceID": "",
+      "developerName": "xtomasnemec",
+      "subtitle": "Oficiální aplikace Dopravní Fotoakce Brno!",
+      "localizedDescription": "",
+      "iconURL": "https://dopravni-fotoakce-brno.github.io/static/dfbris.png",
+      "tintColor": "#fff000",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
 }
