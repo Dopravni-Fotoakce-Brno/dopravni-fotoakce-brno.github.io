@@ -17,17 +17,42 @@
       "developerName": "xtomasnemec",
       "subtitle": "Oficiální aplikace Dopravní Fotoakce Brno!",
       "localizedDescription": "DFB RIS je aplikace od Dopravní Fotoakce Brno, umožňuje sledování dopravy v Brně a Jihomoravském kraji. Funguje i pro rezervace a správu účtu DFB",
-      "iconURL": "https://dopravni-fotoakce-brno.github.io/static/dfbris.png",
+      "iconURL": "https://i.imgur.com/nRChd40.png",
       "tintColor": "#fff000",
       "category": "utilities",
       "screenshots": [],
-      "versions": [],
+      "versions": [
+        {
+          "downloadURL": "https://raw.githubusercontent.com/Dopravni-Fotoakce-Brno/DFBRIS-releases/main/3.0.0.ipa",
+          "size": 15000000,
+          "version": "3.0.0",
+          "buildVersion": "42",
+          "date": "2026-03-22T19:00:00+01:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSCameraUsageDescription": "The camera is required for scanning tickets.",
+          "NSLocationWhenInUseUsageDescription": "This app uses your location to provide nearby connections in the embedded search."
+        }
       },
       "patreon": {}
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "Update 3.0.0",
+      "identifier": "news_jnmcsds70t",
+      "caption": "",
+      "date": "2026-03-22T22:00",
+      "tintColor": "#fff000",
+      "imageURL": "",
+      "notify": true,
+      "url": "",
+      "appID": "com.dfb.dfbris"
+    }
+  ]
 }
